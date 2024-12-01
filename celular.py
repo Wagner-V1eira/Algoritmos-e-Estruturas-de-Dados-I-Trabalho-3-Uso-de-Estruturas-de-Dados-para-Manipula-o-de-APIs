@@ -32,7 +32,7 @@ def login():
         usuario = resposta['nome']
         usuario_id = resposta['id']
         token = resposta['token']
-        print(f"Ok! Bem-vindo {usuario}")
+        print(f"Ok! Bem-vindo {usuario} o seu ID de identificação é {usuario_id}.")
     else:
         print("Erro... Não foi possível realizar login no sistema.")
 
